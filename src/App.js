@@ -1,6 +1,6 @@
 // src/App.js
 import React, { useState, useEffect, useRef } from 'react';
-import { ChakraProvider, Box, Container, FormControl, FormLabel, Input, FormErrorMessage, Button, Textarea, HStack } from '@chakra-ui/react';
+import { ChakraProvider, Box, Container, FormControl, FormLabel, Input, FormErrorMessage, Button, Textarea, HStack} from '@chakra-ui/react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
@@ -21,13 +21,13 @@ const projects = [
   {
     title: 'Project 1',
     description: 'Description for Project 1',
-    image: 'https://via.placeholder.com/200',
+    image: 'photo1.jpg',
     link: 'https://example.com/project1'
   },
   {
     title: 'Project 2',
     description: 'Description for Project 2',
-    image: 'https://via.placeholder.com/200',
+    image: 'photo2.jpg',
     link: 'https://example.com/project2'
   }
 ];
